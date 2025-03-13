@@ -1,6 +1,9 @@
 package test.java;
 
 import org.junit.Test;
+
+import test.logging.LoggingLevel;
+
 import static org.junit.Assert.assertEquals;
 
 public class PersonTest {
@@ -65,7 +68,7 @@ public class PersonTest {
         }
 
         int[] numbers = new int[3]; // default value is 0
-        int[] numbers2 = {1, 2, 3};
+        int[] numbers2 = { 1, 2, 3 };
         System.out.println(numbers2[2]);
     }
 
@@ -78,6 +81,23 @@ public class PersonTest {
                 persons[i][j] = new Person();
                 persons[i][j].helloWorld();
             }
+        }
+    }
+
+    @Test
+    public String demonstrateEnumAndSwitch() {
+
+        LoggingLevel state = LoggingLevel.PENDING;
+
+        switch (state) {
+            case PENDING:
+                return "PENDING";
+            case PROCESSING:
+                return "PROCESSING";
+            case PROCESSED:
+                return "PROCESSED";
+            default:
+                return "DEFAULT";
         }
     }
 
