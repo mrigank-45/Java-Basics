@@ -2,8 +2,6 @@ package test.java;
 
 import org.junit.Test;
 
-import test.enums.LoggingLevel;
-
 import static org.junit.Assert.assertEquals;
 
 public class PersonTest {
@@ -87,7 +85,7 @@ public class PersonTest {
     @Test
     public String demonstrateEnumAndSwitch() {
 
-        LoggingLevel state = LoggingLevel.PENDING;
+        Level state = Level.PENDING;
 
         switch (state) {
             case PENDING:

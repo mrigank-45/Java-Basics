@@ -1,11 +1,11 @@
-package test.enums;
+package test.java;
 
-public enum LoggingLevel {
+public enum Level {
     PENDING(1), PROCESSING(2), PROCESSED(3);
 
     private int i;
 
-    private LoggingLevel(int i) {
+    private Level(int i) {
         this.i = i;
     }
 }
