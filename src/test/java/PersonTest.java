@@ -2,7 +2,7 @@ package test.java;
 
 import org.junit.Test;
 
-import test.logging.LoggingLevel;
+import test.enums.LoggingLevel;
 
 import static org.junit.Assert.assertEquals;
 

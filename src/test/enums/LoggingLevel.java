@@ -1,4 +1,4 @@
-package test.logging;
+package test.enums;
 
 public enum LoggingLevel {
     PENDING(1), PROCESSING(2), PROCESSED(3);
