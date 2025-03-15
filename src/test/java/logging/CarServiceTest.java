@@ -1,4 +1,4 @@
-package test.logging;
+package test.java.logging;
 
 import org.junit.Test;
 

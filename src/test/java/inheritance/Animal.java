@@ -1,4 +1,4 @@
-package test.java.polymorphism;
+package test.java.inheritance;
 
 public abstract class Animal {  // one method is abstract, so the class must be abstract
 

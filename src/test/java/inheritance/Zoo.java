@@ -1,4 +1,4 @@
-package test.java.polymorphism;
+package test.java.inheritance;
 
 public class Zoo {
 
